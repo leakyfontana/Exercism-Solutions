@@ -9,6 +9,7 @@ pub enum LogLevel {
     Warning,
     Error,
 }
+
 /// primary function for emitting logs
 pub fn log(level: LogLevel, message: &str) -> String {
     match level {
